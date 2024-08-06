@@ -1,0 +1,67 @@
+.header-custom {
+  background-color: darkorange;
+  color: white;
+  padding: 10px 0;
+  font-size: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1030;
+}
+
+.header-custom a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header-custom a:hover {
+  color: #f0e68c;
+}
+
+.navbar-custom {
+  background-color: rgb(148, 85, 8);
+  position: fixed;
+  top: 40px; /* Height of header-custom */
+  width: 100%;
+  z-index: 1020;
+}
+
+.navbar-custom .nav-link {
+  color: white;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #f0e68c;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.content {
+  margin-top: 80px; /* Total height of header-custom + navbar-custom */
+  padding: 20px;
+}
+
+/* For the toggle button */
+.navbar-toggler {
+  border: none;
+}
+
+.poster-container {
+  padding: 95px;
+  width: 100%;
+  text-align: center; /* Center the image horizontally */
+   /* Add some space above the poster */
+}
+.carousel-item img {
+  height: 400px; /* Set a fixed height for images */
+  object-fit: cover; /* Ensure the image covers the area without distortion */
+}
+.poster-image {
+  
+  width: 100%; /* Make the image responsive */
+  max-width: 100%; /* Set a max-width for large screens */
+  height: auto; /* Maintain aspect ratio */
+}
